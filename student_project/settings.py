@@ -30,6 +30,10 @@ DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 
 ALLOWED_HOSTS = ['*']
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://student-management-django-production-2bef.up.railway.app",
+]
+
 
 # Application definition
 
